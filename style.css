@@ -58,7 +58,11 @@ body{
         
     }
 
-   
+   .navbar{
+        margin-top: 0;
+        padding-inline: 0;
+    }
+
     
     nav{
         margin: 0 0;
