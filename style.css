@@ -73,7 +73,7 @@ body{
     }
 }
 
-hr{
+.below-intro{
     width: 80%;
     margin: 0 auto;
 }
@@ -223,4 +223,67 @@ hr{
 
 .card{
     border-radius: 6px ;
+    height: 560px;
+}
+
+.below-cards{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.club-benefits-text{
+    font-weight: 300;
+}
+
+.benefit-heading{
+    cursor: pointer;
+}
+.benefit-heading:hover{
+    color: rgba(66,133,244,255);
+    cursor: pointer;
+    
+}
+
+.event-card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #D3D3D3;
+}
+
+.footer-pad{
+    margin-top: 1rem;
+    padding-inline: 5rem;
+}
+
+.footer-item{
+    list-style: disc;
+    color: white;
+    text-decoration: none;
+}
+.footer-list{
+    text-decoration: none;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+.footer-link:hover{
+   color: rgba(66,133,244,255);
+}
+
+@media (min-width: 321px) and (max-width:800px){
+    .icons-next-to-vid{
+       display: none;
+    }
+
+    .club-benefits-text{
+        font-size: 14px;
+    }
+
+    .growtxt{
+        padding-top: 100px;
+    }
 }
