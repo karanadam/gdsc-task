@@ -33,6 +33,7 @@ body{
 
 .nbann:hover{
     color: rgba(52,168,83,255);
+   
 }
 .nbann:focus{
     color: rgba(52,168,83,255);
@@ -56,13 +57,15 @@ body{
     .logotext{
         display: none;
         
+        
     }
 
-   .navbar{
+    .navbar{
         margin-top: 0;
         padding-inline: 0;
     }
 
+   
     
     nav{
         margin: 0 0;
@@ -79,19 +82,132 @@ hr{
     background-color: rgba(234,67,53,255) ;
     outline: none;
     border: 0;
+    animation-name: aboutbox;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.aboutbox:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+@keyframes aboutbox {
+
+    0%{
+        transform: scale(0);
+    }
+  
+    50%{
+        transform: scale(1.1);
+    }
+
+    
+    100%{
+        transform: scale(1);
+    }
+    
+    
 }
 
 .teambox{
     background-color: rgba(66,133,244,255);
+    animation-name: teambox;
+    animation-duration: 1.33s;
+    cursor: pointer;
+    
 }
+.teambox:hover{
+    background-color: white;
+    /* background-color: #5693f5 ; */
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+@keyframes teambox {
+
+    0%{
+        transform: scale(0);
+    }
+  
+    50%{
+        transform: scale(1.1);
+    }
+
+    
+    100%{
+        transform: scale(1);
+    }
+    
+    
+}
+
 
 .membersbox{
     background-color: rgba(52,168,83,255);
+    animation-name: memberbox;
+    animation-duration: 1.66s;
+    cursor: pointer;
 }
+
+.membersbox:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@keyframes memberbox{
+    0%{
+        transform: scale(0);
+    }
+  
+    50%{
+        transform: scale(1.1);
+    }
+
+    
+    100%{
+        transform: scale(1);
+    }
+    
+    
+    
+}
+
+
+    
 
 .announcebox{
     background-color: rgba(251,188,4,255);
+    animation-name: announcebox;
+    animation-duration: 1.99s;
 }
+
+.announcebox:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@keyframes announcebox {
+    0%{
+        transform: scale(0);
+    }
+  
+    50%{
+        transform: scale(1.1);
+    }
+
+    
+    100%{
+        transform: scale(1);
+    }
+    
+    
+}
+
 
 .card-link{
     color: black;
@@ -101,7 +217,7 @@ hr{
 }
 
 .card-link:hover{
-    color: white;
+    color: grey;
 }
 
 .card{
