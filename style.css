@@ -287,3 +287,10 @@ body{
         padding-top: 100px;
     }
 }
+
+@media (min-width: 428px) and (max-width:1344px) {
+    .card{
+        width: 414px;
+    }
+    
+}
