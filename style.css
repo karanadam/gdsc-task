@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    margin-top: 1rem;
+    padding-inline: 5rem;
+}
+.navlogo:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+
+.nbhome:hover{
+    color: rgba(234,67,53,255); 
+
+}
+.nbhome:focus{
+    color: rgba(234,67,53,255); 
+
+}
+
+.nbabout:hover{
+    color: rgba(66,133,244,255);
+}
+.nbabout:focus{
+    color: rgba(66,133,244,255);
+}
+
+.nbann:hover{
+    color: rgba(52,168,83,255);
+}
+.nbann:focus{
+    color: rgba(52,168,83,255);
+}
+
+.nbcontact:hover{
+    color: rgba(251,188,4,255);
+}
+.nbcontact:focus{
+    color: rgba(251,188,4,255);
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    
+}
+
+@media (min-width: 321px) and (max-width:768px){
+    .logotext{
+        display: none;
+        
+    }
+
+   
+    
+    nav{
+        margin: 0 0;
+        padding: 0;
+    }
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.aboutbox{
+    background-color: rgba(234,67,53,255) ;
+    outline: none;
+    border: 0;
+}
+
+.teambox{
+    background-color: rgba(66,133,244,255);
+}
+
+.membersbox{
+    background-color: rgba(52,168,83,255);
+}
+
+.announcebox{
+    background-color: rgba(251,188,4,255);
+}
+
+.card-link{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.card-link:hover{
+    color: white;
+}
+
+.card{
+    border-radius: 6px ;
+}
