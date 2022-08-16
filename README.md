@@ -1,7 +1,7 @@
 
 # GDSC MVJCE
 
- Website for GDSC MVJCE built using HMTL, CSS and Bootsrap5
+ Website for GDSC MVJCE built using HMTL, CSS and Bootstrap5
 
 
 ## Features
