@@ -31,7 +31,7 @@
 
 ## Deployment
 
-To deploy this project click on this link -->(https://gdsc-task.vercel.app/)
+To deploy this project click on this link -->https://gdsc-task.vercel.app/
 
 
 ## Screenshots
