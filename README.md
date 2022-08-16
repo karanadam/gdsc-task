@@ -37,7 +37,7 @@ To deploy this project click on this link -->(https://gdsc-task.vercel.app/)
 Desktop:
 ![Desktop](https://github.com/karanadam/gdsc-task/blob/main/Screenshots/ssdesktop.png?raw=true)
 
-Mobile:
-![Mobile](https://github.com/karanadam/gdsc-task/blob/main/Screenshots/gdsc%20task_page-0001.jpg?raw=true)
+<!--Mobile:
+![Mobile](https://github.com/karanadam/gdsc-task/blob/main/Screenshots/gdsc%20task_page-0001.jpg?raw=true)-->
 
 
