@@ -7,6 +7,7 @@
 ## Features
 
 - Completely responsive(can be viewed on desktop, tablet and mobile)
+- The website is intended to help the user know more about the club, its teams, team members, announcements, past events and upcoming events that will be conducted by   the club
 - This webpage consists of:
     
     -responsive navbar
